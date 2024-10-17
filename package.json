@@ -6,19 +6,23 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "dependencies": {
+    "next": "15.0.0-rc.1",
     "react": "19.0.0-rc-cd22717c-20241013",
-    "react-dom": "19.0.0-rc-cd22717c-20241013",
-    "next": "15.0.0-rc.1"
+    "react-dom": "19.0.0-rc-cd22717c-20241013"
   },
   "devDependencies": {
-    "typescript": "5.6.3",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@types/node": "20.16.12",
     "@types/react": "18.3.11",
     "@types/react-dom": "18.3.1",
     "eslint": "8.57.1",
-    "eslint-config-next": "15.0.0-rc.1"
+    "eslint-config-next": "15.0.0-rc.1",
+    "husky": "9.1.6",
+    "typescript": "5.6.3"
   }
 }
